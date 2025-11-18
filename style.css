@@ -175,7 +175,7 @@
     align-items:center;
     justify-content:center;
     font-size:0.88rem;
-    width:82%;
+    width:97%;
     margin-bottom:25px;
 }
 
@@ -184,6 +184,69 @@
     text-decoration:none;
 }
 
+/***********SHOP SECTION*********/
+.shop-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:#C39A9D;
 
-    
+}
+.box{
+    height:400px;
+    width: 23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top:5px;
+}
 
+.box-image{
+    background-size:cover;
+    height:300px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.box-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.box-content a{
+    text-decoration:none;
+    color:#2261A1;
+}
+
+/*******FOOTER********/
+footer{
+
+    margin-top:50px;
+}
+.foot-panel1{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.87rem;
+}
+
+.foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    height:500px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+ul{
+    margin-top:25px;
+}
+ul a{
+    display:block;
+    font-size:0.87rem;
+    margin-top:10px;
+    color:#dddddd;
+ }
