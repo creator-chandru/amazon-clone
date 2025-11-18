@@ -6,7 +6,7 @@
 
 .navbar{
     height:60px;
-    background-color:#0f1111;
+    background-color:#004A0A;
     color:white;
     display:flex;
     align-items:center;
@@ -39,7 +39,7 @@
 
 .address-first{
     color : #cccccc;
-    font-size:0.85rem;
+    font-size:0.88rem;
     margin-left:16px;
 }
 
@@ -111,7 +111,7 @@
     height:15px;
     width:100px;
     color:#ffffff;
-    font-size:0.85rem;
+    font-size:0.88rem;
     font-weight:700;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .nav-cart { 
-    font-size:0.85rem;
+    font-size:0.88rem;
     font-weight:700;
 }
 
@@ -135,19 +135,53 @@
 
 .panel{
     height:40px;
-    background-color:#222f3d;
+    background-color:#01550C;
     display:flex;
     color:white;
-    justify-content:space-evenly;
+    justify-content:flex-start;
     align-items:center;
 }
 
+.panel-all{
+    margin-left:5px;
+}
 .panel-options p{
     display:inline-flex;
+    margin-left:15px;
 }
 
 .panel-options{
     width:70%;
+    font-size:0.88rem;
+}
+
+
+/**********HERO-SECTION********/
+
+.hero-section{
+    background-image:url("amazon_home.jpg");
+    background-size:cover;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.hero-msg{
+    background-color:white;
+    color:black;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.88rem;
+    width:82%;
+    margin-bottom:25px;
+}
+
+.hero-msg a{
+    color:#2261A1;
+    text-decoration:none;
 }
 
 
